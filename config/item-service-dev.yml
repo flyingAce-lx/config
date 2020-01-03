@@ -1,5 +1,8 @@
 spring:
-  application:
+   cloud:
+    config:
+      override-none: true
+   application:
     name: item-service
     
 server:
